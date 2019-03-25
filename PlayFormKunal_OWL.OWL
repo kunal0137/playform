@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdfs:Class rdf:about="http://semoss.org/ontologies/Concept"/>
+<rdf:Property rdf:about="http://semoss.org/ontologies/Relation"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<rdfs:subClassOf rdf:resource="http://semoss.org/ontologies/Concept"/>
+	<rdfs:Class rdf:resource="TYPE:LONG"/>
+	<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE"/>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Android_Ver/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Android_Ver/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Android_Ver/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/App/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/App/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/App/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Category/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Category/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Category/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Content_Rating/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Content_Rating/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Content_Rating/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Current_Ver/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Current_Ver/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Current_Ver/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Genres/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Genres/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Genres/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Installs/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Installs/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Installs/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Last_Updated/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Last_Updated/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Last_Updated/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Price/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Price/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Price/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Rating/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Rating/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Rating/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Reviews/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Reviews/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:INT"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Reviews/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Size_1/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Size_1/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:DOUBLE"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Size_1/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<Contains xmlns="http://semoss.org/ontologies/Relation/" rdf:about="http://semoss.org/ontologies/Relation/Contains/Type_1/GOOGLEPLAYSTORE"/>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/GOOGLEPLAYSTORE_UNIQUE_ROW_ID/GOOGLEPLAYSTORE">
+	<DatatypeProperty xmlns="http://www.w3.org/2002/07/owl#">
+		<rdf:Description rdf:about="http://semoss.org/ontologies/Relation/Contains/Type_1/GOOGLEPLAYSTORE">
+			<rdfs:Class rdf:resource="TYPE:VARCHAR(2000)"/>
+			<Conceptual xmlns="http://semoss.org/ontologies/Relation/" rdf:resource="http://semoss.org/ontologies/Relation/Contains/Type_1/GOOGLEPLAYSTORE"/>
+		</rdf:Description>
+	</DatatypeProperty>
+</rdf:Description>
+<rdf:Description rdf:about="http://semoss.org/ontologies/Concept/TimeStamp">
+	<TIME xmlns="ENGINE:">2019:01:07 19:01:06</TIME>
+</rdf:Description>
+
+</rdf:RDF>
